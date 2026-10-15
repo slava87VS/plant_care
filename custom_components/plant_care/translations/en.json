@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a plant",
+        "description": "Configure a plant to monitor for watering needs.",
+        "data": {
+          "plant_name": "Plant name",
+          "humidity_sensor": "Soil moisture sensor (optional)",
+          "temperature_sensor": "Temperature sensor (optional)",
+          "water_interval": "Watering interval (days)",
+          "humidity_threshold": "Soil moisture threshold (%)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This plant is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Plant Care options",
+        "data": {
+          "water_interval": "Watering interval (days)",
+          "humidity_threshold": "Soil moisture threshold (%)"
+        }
+      }
+    }
+  }
+}

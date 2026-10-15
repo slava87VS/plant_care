@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Добавить растение",
+        "description": "Настройте растение для отслеживания влажности почвы.",
+        "data": {
+          "plant_name": "Название растения",
+          "humidity_sensor": "Датчик влажности почвы",
+          "humidity_threshold": "Порог влажности почвы (%)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Это растение уже добавлено."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки Plant Care",
+        "data": {
+          "humidity_sensor": "Датчик влажности почвы",
+          "humidity_threshold": "Порог влажности почвы (%)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "plant_care",
+  "name": "Plant Care",
+  "codeowners": ["@slava87VS"],
+  "config_flow": true,
+  "documentation": "https://github.com/slava87VS/plant_care",
+  "issue_tracker": "https://github.com/slava87VS/plant_care/issues",
+  "version": "0.1.0",
+  "iot_class": "local_polling",
+  "integration_type": "helper",
+  "requirements": []
+}
